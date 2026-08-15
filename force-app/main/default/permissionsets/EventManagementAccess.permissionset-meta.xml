@@ -85,27 +85,7 @@
         <editable>true</editable>
     </fieldPermissions>
     <fieldPermissions>
-        <field>Location__c.City__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Location__c.Postal_Code__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Location__c.Country__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
         <field>Location__c.Land_Mark__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Location__c.State__c</field>
         <readable>true</readable>
         <editable>true</editable>
     </fieldPermissions>
@@ -117,32 +97,12 @@
 
     <!-- Speaker__c -->
     <fieldPermissions>
-        <field>Speaker__c.Email__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Speaker__c.Phone__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
         <field>Speaker__c.Company__c</field>
         <readable>true</readable>
         <editable>true</editable>
     </fieldPermissions>
 
     <!-- Event_Organizer__c -->
-    <fieldPermissions>
-        <field>Event_Organizer__c.Email__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Event_Organizer__c.Phone__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
     <fieldPermissions>
         <field>Event_Organizer__c.Alternative_Email__c</field>
         <readable>true</readable>
@@ -160,16 +120,6 @@
     </fieldPermissions>
 
     <!-- Attendee__c -->
-    <fieldPermissions>
-        <field>Attendee__c.Email__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Attendee__c.Phone__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
     <fieldPermissions>
         <field>Attendee__c.Company_Name__c</field>
         <readable>true</readable>
@@ -193,27 +143,12 @@
         <editable>true</editable>
     </fieldPermissions>
     <fieldPermissions>
-        <field>Event__c.Name__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Event__c.Start_DateTime__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
         <field>Event__c.End_Date_Time__c</field>
         <readable>true</readable>
         <editable>true</editable>
     </fieldPermissions>
     <fieldPermissions>
         <field>Event__c.Recurring__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Event__c.Max_Seats__c</field>
         <readable>true</readable>
         <editable>true</editable>
     </fieldPermissions>
