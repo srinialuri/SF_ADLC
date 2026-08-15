@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Live__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description
+  >Indicates whether the event is currently live/in progress.</description>
+    <inlineHelpText
+  >Check this box if the event is currently live.</inlineHelpText>
+    <label>Live</label>
+    <type>Checkbox</type>
+</CustomField>
