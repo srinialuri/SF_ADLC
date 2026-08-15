@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Log_Details__c</fullName>
+    <description
+  >The full detail/message content of the logged error, such as a stack trace or error text.</description>
+    <inlineHelpText
+  >Enter the full details of the error, such as a stack trace or error message.</inlineHelpText>
+    <label>Log Details</label>
+    <length>32768</length>
+    <required>false</required>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

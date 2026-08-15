@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lod_DateTime__c</fullName>
+    <description>The date and time this error was logged.</description>
+    <inlineHelpText>The date and time this error was logged.</inlineHelpText>
+    <label>Lod Date/Time</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>
