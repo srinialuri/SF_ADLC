@@ -6,7 +6,7 @@
     <inlineHelpText
   >Enter a nearby landmark to help identify this location.</inlineHelpText>
     <label>Land Mark</label>
-    <length>255</length>
+    <length>256</length>
     <required>false</required>
     <type>LongTextArea</type>
     <visibleLines>3</visibleLines>

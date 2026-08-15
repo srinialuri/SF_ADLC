@@ -4,8 +4,7 @@
     <description>The street address portion of the location.</description>
     <inlineHelpText>Enter the street address for this location.</inlineHelpText>
     <label>Street</label>
-    <length>255</length>
-    <required>true</required>
+    <length>256</length>
     <type>LongTextArea</type>
     <visibleLines>3</visibleLines>
 </CustomField>
