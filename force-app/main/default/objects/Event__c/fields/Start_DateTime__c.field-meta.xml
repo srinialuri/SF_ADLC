@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Start_DateTime__c</fullName>
+    <description>The date and time the event begins.</description>
+    <inlineHelpText>Enter the date and time the event starts.</inlineHelpText>
+    <label>Start Date/Time</label>
+    <required>true</required>
+    <type>DateTime</type>
+</CustomField>

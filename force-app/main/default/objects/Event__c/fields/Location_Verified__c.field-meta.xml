@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Verified__c</fullName>
+    <description
+  >Formula that mirrors the Verified status of this event's related Location record.</description>
+    <formula>Location__r.Verified__c</formula>
+    <inlineHelpText
+  >Shows whether the event's location has been verified.</inlineHelpText>
+    <label>Location Verified</label>
+    <required>false</required>
+    <type>Checkbox</type>
+</CustomField>

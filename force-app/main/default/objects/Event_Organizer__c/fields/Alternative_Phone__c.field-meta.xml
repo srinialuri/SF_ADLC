@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alternative_Phone__c</fullName>
+    <description
+  >A secondary phone number for the event organizer, used as a backup contact method.</description>
+    <inlineHelpText
+  >Enter an alternative phone number for this organizer, if any.</inlineHelpText>
+    <label>Alternative Phone</label>
+    <required>false</required>
+    <type>Phone</type>
+</CustomField>

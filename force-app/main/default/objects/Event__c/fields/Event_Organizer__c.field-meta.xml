@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Organizer__c</fullName>
+    <description
+  >The organizer responsible for this event. Deleting the organizer deletes this event.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Select the organizer responsible for this event.</inlineHelpText>
+    <label>Event Organizer</label>
+    <referenceTo>Event_Organizer__c</referenceTo>
+    <relationshipLabel>Events</relationshipLabel>
+    <relationshipName>Events</relationshipName>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>
