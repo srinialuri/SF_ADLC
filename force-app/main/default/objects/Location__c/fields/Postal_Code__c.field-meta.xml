@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Postal_Code__c</fullName>
+    <description>The postal or ZIP code for this location.</description>
+    <inlineHelpText>Enter the postal code for this location.</inlineHelpText>
+    <label>Postal Code</label>
+    <length>6</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
