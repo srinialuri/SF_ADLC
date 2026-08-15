@@ -138,11 +138,6 @@
         <editable>true</editable>
     </fieldPermissions>
     <fieldPermissions>
-        <field>Event__c.Event_Organizer__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
         <field>Event__c.End_Date_Time__c</field>
         <readable>true</readable>
         <editable>true</editable>
@@ -184,30 +179,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <field>Event__c.Status__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-
-    <!-- Event_Attendee__c -->
-    <fieldPermissions>
-        <field>Event_Attendee__c.Event__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>Event_Attendee__c.Attendee__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-
-    <!-- EventSpeakers__c -->
-    <fieldPermissions>
-        <field>EventSpeakers__c.Event__c</field>
-        <readable>true</readable>
-        <editable>true</editable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <field>EventSpeakers__c.Speaker__c</field>
         <readable>true</readable>
         <editable>true</editable>
     </fieldPermissions>
