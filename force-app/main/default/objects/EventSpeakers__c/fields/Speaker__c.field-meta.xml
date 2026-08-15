@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Speaker__c</fullName>
+    <description
+  >The speaker this record links to. Junction field used to relate Event__c and Speaker__c.</description>
+    <externalId>false</externalId>
+    <inlineHelpText
+  >Select the speaker presenting at this event.</inlineHelpText>
+    <label>Speaker</label>
+    <referenceTo>Speaker__c</referenceTo>
+    <relationshipLabel>Event Speakers</relationshipLabel>
+    <relationshipName>Event_Speakers</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

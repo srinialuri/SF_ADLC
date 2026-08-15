@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remaining_Seats__c</fullName>
+    <description
+  >Formula showing how many seats are still available, calculated as Max Seats minus People Attending.</description>
+    <formula>Max_Seats__c -  PeopleAttending__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText
+  >Shows the number of seats still available for this event.</inlineHelpText>
+    <label>Remaining Seats</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+</CustomField>
